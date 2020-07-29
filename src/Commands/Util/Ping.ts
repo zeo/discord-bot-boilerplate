@@ -1,6 +1,10 @@
+/**
+ * @file Ping.ts
+ * @author Mex de Loo <mex@zeodev.cc>
+ * @license MIT
+ */
 import BaseCommand from "../BaseCommand";
 import Bot from "../../Bot";
-import Responses from "../../Utils/Responses";
 
 export default class Ping extends BaseCommand {
   public readonly name = "ping";

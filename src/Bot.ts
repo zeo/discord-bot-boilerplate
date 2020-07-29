@@ -1,3 +1,8 @@
+/**
+ * @file Bot.ts
+ * @author Mex de Loo <mex@zeodev.cc>
+ * @license MIT
+ */
 import {Client, ClientEvents, ClientOptions, Collection} from "discord.js";
 import * as glob from "fast-glob";
 import {join as path} from "path";
