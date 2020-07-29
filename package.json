@@ -1,0 +1,24 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Public discord bot",
+  "main": "index.js",
+  "author": "Mex de Loo <zeo.coding@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "fast-glob": "^3.2.4",
+    "log4js": "^6.3.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./out/index.js",
+    "dev": "yarn build && yarn start"
+  }
+}
